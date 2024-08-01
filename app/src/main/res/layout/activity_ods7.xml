@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/black"
+    tools:context=".ODS7">
+
+
+    <ImageView
+        android:id="@+id/ods7_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/ods7_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="318dp"
+        android:text="Objetivo de Desenvolvimento Sustentável 7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/ods7_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="132dp"
+        android:text="O ODS 7 visa garantir que todas as pessoas tenham acesso a energia acessível, confiável, sustentável e moderna. Ele destaca a importância do acesso universal à eletricidade, a promoção de fontes de energia renováveis, a melhoria da eficiência energética e o investimento em tecnologias sustentáveis. A realização desse objetivo é fundamental para o desenvolvimento econômico e a proteção ambiental."
+        android:textSize="16sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="234dp"
+        android:layout_height="230dp"
+        android:layout_alignEnd="@+id/ods7_description"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="427dp"
+        android:src="@drawable/ods_7"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
