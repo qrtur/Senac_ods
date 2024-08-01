@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F2224"
+    tools:context=".ods2">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="227dp"
+        android:layout_height="215dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079"
+        app:srcCompat="@drawable/ods2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="344dp"
+        android:layout_height="253dp"
+        android:text="Esse objetivo visa acabar com a fome, garantir segurança alimentar e melhorar a nutrição, além de promover a agricultura sustentável. Isso inclui erradicar a fome e garantir que todas as pessoas tenham acesso a alimentos nutritivos, além de apoiar práticas agrícolas que aumentem a produtividade e sejam sustentáveis a longo prazo. O ODS 2 visa criar um sistema alimentar mais justo e sustentável para enfrentar o crescimento populacional e as necessidades alimentares globais."
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744" />
+</androidx.constraintlayout.widget.ConstraintLayout>

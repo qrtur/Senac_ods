@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F2224"
+    tools:context=".ods3">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="223dp"
+        android:layout_height="215dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075"
+        app:srcCompat="@drawable/ods3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="344dp"
+        android:layout_height="253dp"
+        android:text="O ODS 3 foca em assegurar que todas as pessoas tenham acesso a cuidados de saúde de qualidade e vivam uma vida longa e saudável. Isso inclui reduzir a mortalidade por doenças, melhorar a saúde materna e infantil, combater epidemias e promover o bem-estar mental e físico, enfrentando também doenças não transmissíveis e fatores ambientais que impactam a saúde."
+        android:textColor="#FBFBFB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+</androidx.constraintlayout.widget.ConstraintLayout>
