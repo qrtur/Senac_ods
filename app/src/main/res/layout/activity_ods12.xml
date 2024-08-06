@@ -5,30 +5,37 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:foregroundTint="#FFFFFF"
     tools:context=".ODS12">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:background="#BE8C2C"
         app:srcCompat="@drawable/ods12_1" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="480dp" />
+        android:id="@+id/textods12"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:autoText="false"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:drawableTint="@color/white"
+        android:text="VISA GARANTIR PADRÕES DE CONSUMO E PRODUÇÃO SUSTENTÁVEIS, PROMOVENDO O USO EFICIENTE DOS RECURSOS NATURAIS E A REDUÇÃO DOS IMPACTOS AMBIENTAIS, PARA PROTEGER O PLANETA E GARANTIR UM FUTURO SUSTENTÁVEL PARA TODOS."
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        tools:layout_editor_absoluteY="63dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#BE8C2C"
+
         android:text="Sair"
         tools:layout_editor_absoluteX="157dp"
         tools:layout_editor_absoluteY="583dp" />
