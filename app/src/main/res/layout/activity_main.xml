@@ -4,15 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#136A9E"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:backgroundTint="#136A9E"
+        android:text="Sair"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:text=" VISA PROMOVER SOCIEDADES PACÍFICAS E INCLUSIVAS, GARANTIR O ACESSO À JUSTIÇA PARA TODOS E CONSTRUIR INSTITUIÇÕES RESPONSÁVEIS E EFICAZES EM TODOS OS NÍVEIS."
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ods16"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="221dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
