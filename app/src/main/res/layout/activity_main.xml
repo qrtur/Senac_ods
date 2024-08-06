@@ -4,15 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#5AB948"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:backgroundTint="#5AB948"
+        android:text="Sair"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:text="VISA PROTEGER, RESTAURAR E PROMOVER O USO SUSTENTÁVEL DOS ECOSSISTEMAS TERRESTRES, GESTIONAR SUSTENTAVELMENTE AS FLORESTAS, LUCRAR COM A COMBATE À DEGRADAÇÃO DO SOLO E À PERDA DA BIODIVERSIDADE.    "
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5AB948"
+        app:srcCompat="@drawable/ods15"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="202dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
