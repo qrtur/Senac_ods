@@ -2,17 +2,44 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textods13"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#3F7E44"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Sair"
+        android:backgroundTint="#FF3F7E44"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:text="VISA TOMAR MEDIDAS URGENTES PARA COMBATER AS MUDANÇAS CLIMÁTICAS E SEUS IMPACTOS, PROMOVENDO A ADAPTAÇÃO E A RESILIÊNCIA PARA PROTEGER O PLANETA E GARANTIR UM FUTURO SUSTENTÁVEL PARA TODOS."
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <ImageView
+        android:id="@+id/imageods13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3F7E44"
+        app:srcCompat="@drawable/realods13"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="200dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
