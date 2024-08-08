@@ -19,23 +19,23 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        ImageView btn1 = findViewById(R.id.ods1);
-        ImageView btn2 = findViewById(R.id.ods2);
-        ImageView btn3 = findViewById(R.id.ods3);
-        ImageView btn4 = findViewById(R.id.ods4);
-        ImageView btn5 = findViewById(R.id.ods5);
-        ImageView btn6 = findViewById(R.id.ods6);
-        ImageView btn7 = findViewById(R.id.ods7);
-        ImageView btn8 = findViewById(R.id.ods8);
-        ImageView btn9 = findViewById(R.id.ods9);
-        ImageView btn10 = findViewById(R.id.ods10);
-        ImageView btn11 = findViewById(R.id.ods11);
-        ImageView btn12 = findViewById(R.id.ods12);
-        ImageView btn13 = findViewById(R.id.ods13);
-        ImageView btn14 = findViewById(R.id.ods14);
-        ImageView btn15 = findViewById(R.id.ods15);
-        ImageView btn16 = findViewById(R.id.ods16);
-        ImageView btn17 = findViewById(R.id.ods17);
+        ImageButton btn1 = findViewById(R.id.ods1);
+        ImageButton btn2 = findViewById(R.id.ods2);
+        ImageButton btn3 = findViewById(R.id.ods3);
+        ImageButton btn4 = findViewById(R.id.ods4);
+        ImageButton btn5 = findViewById(R.id.ods5);
+        ImageButton btn6 = findViewById(R.id.ods6);
+        ImageButton btn7 = findViewById(R.id.ods7);
+        ImageButton btn8 = findViewById(R.id.ods8);
+        ImageButton btn9 = findViewById(R.id.ods9);
+        ImageButton btn10 = findViewById(R.id.ods10);
+        ImageButton btn11 = findViewById(R.id.ods11);
+        ImageButton btn12 = findViewById(R.id.ods12);
+        ImageButton btn13 = findViewById(R.id.ods13);
+        ImageButton btn14 = findViewById(R.id.ods14);
+        ImageButton btn15 = findViewById(R.id.ods15);
+        ImageButton btn16 = findViewById(R.id.ods16);
+        ImageButton btn17 = findViewById(R.id.ods17);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
