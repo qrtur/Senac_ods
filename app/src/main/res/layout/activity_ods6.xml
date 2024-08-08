@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.108"
-        app:srcCompat="@drawable/ods66" />
+        app:srcCompat="@drawable/ods6" />
 
     <TextView
         android:id="@+id/textView6"

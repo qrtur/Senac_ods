@@ -27,7 +27,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.859"
-            app:srcCompat="@drawable/ods177" />
+            app:srcCompat="@drawable/ods17" />
 
         <ImageView
             android:id="@+id/ods15"
@@ -111,7 +111,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.47"
-            app:srcCompat="@drawable/ods66" />
+            app:srcCompat="@drawable/ods6" />
 
         <ImageView
             android:id="@+id/ods7"
@@ -135,7 +135,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.6"
-            app:srcCompat="@drawable/ods100" />
+            app:srcCompat="@drawable/ods10" />
 
         <ImageView
             android:id="@+id/ods11"
@@ -159,7 +159,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.727"
-            app:srcCompat="@drawable/ods166" />
+            app:srcCompat="@drawable/ods16" />
 
         <ImageView
             android:id="@+id/ods4"
@@ -171,7 +171,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.334"
-            app:srcCompat="@drawable/ods44" />
+            app:srcCompat="@drawable/ods4" />
 
         <ImageView
             android:id="@+id/ods8"
@@ -219,13 +219,13 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.727"
-            app:srcCompat="@drawable/ods144" />
+            app:srcCompat="@drawable/ods14" />
 
         <Button
             android:id="@+id/back"
             android:layout_width="473dp"
             android:layout_height="78dp"
-            android:backgroundTint="#DFE9F0"
+            android:backgroundTint="#C8D0D5"
             app:cornerRadius="10px"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
